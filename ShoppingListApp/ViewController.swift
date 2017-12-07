@@ -15,8 +15,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
    
     ///////////////////outlets///////////////////////
     @IBOutlet weak var textname: UITextField!
-    @IBOutlet weak var quantity: UITextField!
-    @IBOutlet weak var textitem: UITextField!
+   
     
     @IBOutlet weak var textItem1: UITextField!
     @IBOutlet weak var textItem2: UITextField!
@@ -29,7 +28,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     @IBOutlet weak var Pic_item3: UIPickerView!
     @IBOutlet weak var Pic_item4: UIPickerView!
     @IBOutlet weak var Pic_item5: UIPickerView!
-    private let characterNames = [
+    private let characterNames = ["0",
         "1", "2", "3", "4", "5",
         "6", "7","8","9","10"]
     
@@ -46,8 +45,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     @IBAction func reset(_ sender: UIButton) {
         
         textname.text = ""
-        textitem.text = ""
-        quantity.text = ""
+       
         textItem1.text = ""
         textItem2.text = ""
         textItem3.text = ""
