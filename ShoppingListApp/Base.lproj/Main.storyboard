@@ -37,7 +37,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter List Item" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAq-nx-uhT">
                                 <rect key="frame" x="16" y="66" width="122" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="122" id="Zxh-32-TOI"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="122" id="Zxh-32-TOI"/>
                                     <constraint firstAttribute="height" constant="21" id="kdk-3z-e4X"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -54,7 +54,7 @@
                                 <rect key="frame" x="16" y="107" width="122" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="179-gj-uZl"/>
-                                    <constraint firstAttribute="width" constant="122" id="HDP-pD-ikI"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="122" id="HDP-pD-ikI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -189,7 +189,7 @@
                                 <color key="backgroundColor" red="0.23395185172557831" green="0.52257692813873291" blue="0.79221987724304199" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="GBB-w3-IAo"/>
-                                    <constraint firstAttribute="width" constant="100" id="nFy-Hh-wUo"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="nFy-Hh-wUo"/>
                                 </constraints>
                                 <state key="normal" title="Cancel">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -256,6 +256,7 @@
                             <constraint firstItem="SYh-uG-8QY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="PxZ-I6-YVJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fra-Wb-fgP" secondAttribute="trailing" constant="19" id="QVw-38-v8E"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0AG-Md-H7a" secondAttribute="trailing" constant="19" id="QWf-Rd-Uz8"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eZS-c0-JYV" secondAttribute="trailing" constant="20" symbolic="YES" id="QjC-p3-z3U"/>
                             <constraint firstItem="KV6-tI-fsq" firstAttribute="leading" secondItem="zkc-iP-8oS" secondAttribute="leading" id="RwB-YH-qFk"/>
                             <constraint firstItem="Fra-Wb-fgP" firstAttribute="top" secondItem="Gks-B9-y9k" secondAttribute="bottom" constant="19" id="S1h-Fy-Ue7"/>
                             <constraint firstItem="zkc-iP-8oS" firstAttribute="top" secondItem="EgD-zv-OYE" secondAttribute="bottom" constant="25" id="S5b-TG-J6v"/>

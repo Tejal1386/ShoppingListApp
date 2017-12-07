@@ -1,7 +1,11 @@
 /*
  FileName = ShoppingListApp
- Aouther's Name = Tejal Patel
+ Aouther's Name-1 = Tejal Patel
  Student_ID = 300972812
+ Aouther's Name-2 = Amandeep sekhon
+ Student_ID = 300976886
+ Aouther's Name-3 = Mankiran Kaur
+ Student_ID = 300990016
  Date = 06/12/2017
  */
 import UIKit
